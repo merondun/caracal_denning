@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>Centroids.kml</name>
+	<StyleMap id="default">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="default0">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>2</scale>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055ff</color>
+		</LabelStyle>
+	</Style>
+	<Style id="hl">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>2.4</scale>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055ff</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>2.4</scale>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055ff</color>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<color>ff0055ff</color>
+			<scale>2</scale>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055ff</color>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Folder>
+		<name>Centroids</name>
+		<Placemark>
+			<name>TMC03</name>
+			<description>1</description>
+			<styleUrl>#default</styleUrl>
+			<Point>
+				<coordinates>18.3582877166667,-34.1047530166667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TMC13</name>
+			<description>1</description>
+			<styleUrl>#default</styleUrl>
+			<Point>
+				<coordinates>18.4110082769231,-34.1170740153846,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TMC27</name>
+			<description>1</description>
+			<styleUrl>#default</styleUrl>
+			<Point>
+				<coordinates>18.3385260857143,-34.0591557857143,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TMC28</name>
+			<description>1</description>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<coordinates>18.4740125434783,-34.35025775,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
