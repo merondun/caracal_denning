@@ -1,5 +1,7 @@
 # Caracal Movement Analysis
 
+[![DOI](https://zenodo.org/badge/790800749.svg)](https://zenodo.org/doi/10.5281/zenodo.11048374)
+
 1. [Dens](#1-dens)
 2. [Trip ID](#2-identifying-trips)
 3. [Trip Analysis](#3-analyzing-trips)
